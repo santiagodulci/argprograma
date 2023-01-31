@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { 
+	box-sizing: 
+	border-box;
+}
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font: Monserrat;
+}
+.imagenDeFondo {
+    background-image: url(https://wallpaperaccess.com/full/4735135.png);
+    background-position: center;
+	background-size:cover;
+	padding: 15px;
+	margin: 4px;
+}
+.cuerpo {
+	margin-left:23%;
+	margin-right:5%;
+	padding:5px 16px;
+	height:1000px;
+}
+h5 {
+	color: grey;
+	opacity: 0.5;
+}
+h6 {
+	color: grey;
+}
+body {
+    margin: 1px;
+    background-color: black;
+    font: Monserrat;
+	color: white;
+}
+ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 18%;
+	background-color: black;
+	color: white;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	margin: left-side;
+}
+li a {
+	display: block;
+	color: grey;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+li a.active {
+	background-color: grey;
+	color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+  color: white;
+}
+div {
+	display: block;
+	background-color: black;
+	font: Monserrat;
+	color: white;
+}
+input {
+	width: 100%;
+	height: 50px;
+}
+button {
+	width: 30%;
+	height: 40px;
+}
+footer {
+	width: 80%;
+	height: 30px;
+	margin-left:93%;
+	margin-right:5%;
+	margin-bottom:0%;
+	padding:10px 16px;
+	height:80px;
+}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+</style>
+</head>
